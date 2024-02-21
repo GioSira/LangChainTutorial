@@ -17,7 +17,7 @@ from langchain.chains import create_retrieval_chain
 # ollama run phi
 
 # fetch the model
-llm = Ollama(model=f'phi')
+llm = Ollama(model='phi')
 
 # load the documents in the following website
 # the documents will be inserted into a vector-store, i.e. word embedding db
